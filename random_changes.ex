@@ -1,11 +1,47 @@
 defmodule RandomChanges do
 
+  @set [
+    {"Escrutador de Chak", true},
+    {"Roger Boothe", false},
+    {"Tommy Jackwell", false},
+    {"Hernández/PAF", true},
+    {"Eli Parker", true},
+    {"Pirokinético Zorra", true},
+    {"Roper Jones", true},
+    {"Elton Bradbury", true},
+    {"Brit Hammer", true},
+    {"Mikio Chiyo", true},
+    {"Yannick Doerr", false},
+    {"Ross Geoff Evered", true},
+    {"Dudley Johnson", true},
+    {"Bruria Segalowitz", false},
+    {"Jack Hughman", false},
+    {"Cain Smith", false},
+    {"Steve Griswold", false},
+    {"Hans Grüber", true},
+    {"Elkia M'bokolo", true},
+    {"Jia Zhang Ke", true},
+    {"German Gumbo", false},
+    {"Susan Parker", true},
+    {"Brad Parker", false},
+    {"Trisha Oggay", false},
+    {"Maggie Shuman", true},
+    {"Ibrahima", true},
+    {"Richard Bayless", true},
+    {"Gilbert Milner", true}
+  ]
+
   # Public functions
 
-  def main(character, alive) do
+  def main({character, alive}) do
     status = alive?(character, alive, Enum.random(1..100))
     changes = changes?(Enum.random(1..100))
     "#{status} #{changes}"
+  end
+
+  def couple_chars() do
+    result = inspect(Enum.map(@set, fn x -> main(x) end), pretty: true)
+    File.write("saves//#{NaiveDateTime.to_string(NaiveDateTime.utc_now())}", result)
   end
 
   # Private functions
