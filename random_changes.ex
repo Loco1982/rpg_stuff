@@ -41,7 +41,8 @@ defmodule RandomChanges do
 
   def couple_chars() do
     result = inspect(Enum.map(@set, fn x -> main(x) end), pretty: true)
-    File.write("saves//#{NaiveDateTime.to_string(NaiveDateTime.utc_now())}", result)
+    save_file = String.trim(IO.gets("Save file name:\n"))
+    File.write("saves//#{save_file}", result)
   end
 
   # Private functions
