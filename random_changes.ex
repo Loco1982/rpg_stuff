@@ -4,7 +4,7 @@ defmodule RandomChanges do
     {"Escrutador de Chak", true},
     {"Roger Boothe", false},
     {"Tommy Jackwell", false},
-    #{"Hernández/PAF", true},
+    #{"Hernández/PAF", false},
     {"Eli Parker", true},
     {"Pirokinético Zorra", true},
     {"Roper Jones", true},
