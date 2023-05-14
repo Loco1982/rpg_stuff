@@ -4,7 +4,7 @@ defmodule RandomChanges do
     {"Escrutador de Chak", true},
     {"Roger Boothe", false},
     {"Tommy Jackwell", false},
-    {"Hernández/PAF", true},
+    #{"Hernández/PAF", true},
     {"Eli Parker", true},
     {"Pirokinético Zorra", true},
     {"Roper Jones", true},
@@ -13,7 +13,7 @@ defmodule RandomChanges do
     {"Mikio Chiyo", true},
     {"Yannick Doerr", false},
     {"Ross Geoff Evered", true},
-    {"Dudley Johnson", true},
+    #{"Dudley Johnson", true},
     {"Bruria Segalowitz", false},
     {"Jack Hughman", false},
     {"Cain Smith", false},
@@ -26,9 +26,10 @@ defmodule RandomChanges do
     {"Brad Parker", false},
     {"Trisha Oggay", false},
     {"Maggie Shuman", true},
-    {"Ibrahima", true},
+    #{"Ibrahima", true},
     {"Richard Bayless", true},
-    {"Gilbert Milner", true}
+    {"Gilbert Milner", true},
+    {"Ida Davidson", true}
   ]
 
   # Public functions
