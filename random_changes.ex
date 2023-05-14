@@ -27,6 +27,7 @@ defmodule RandomChanges do
     {"Trisha Oggay", false},
     {"Maggie Shuman", true},
     #{"Ibrahima", true},
+    #{"Johnny Sinclair", true},
     {"Richard Bayless", true},
     {"Gilbert Milner", true},
     {"Ida Davidson", true}
