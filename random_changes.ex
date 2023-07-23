@@ -6,7 +6,7 @@ defmodule RandomChanges do
     {"Tommy Jackwell", false},
     {"Hernández/PAF", false},
     {"Eli Parker", true},
-    {"Pirokinético Zorra", true},
+    {"Joe MartínezPirokinético Zorra", true},
     {"Roper Jones", true},
     {"Elton Bradbury", true},
     {"Brit Hammer", true},
