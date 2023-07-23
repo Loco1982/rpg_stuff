@@ -31,7 +31,8 @@ defmodule RandomChanges do
     {"Richard Bayless", true},
     {"Gilbert Milner", true},
     {"Ida Davidson", true},
-    {"Robert Windsor", true}
+    {"Robert Windsor", true},
+    {"Orwell Marshal", true},
   ]
 
   # Public functions
