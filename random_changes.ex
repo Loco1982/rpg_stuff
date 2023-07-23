@@ -28,11 +28,11 @@ defmodule RandomChanges do
     {"Maggie Shuman", true},
     {"Ibrahima Dawara", true},
     {"Johnny Sinclair", true},
-    {"Richard Bayless", true},
-    {"Gilbert Milner", true},
-    {"Ida Davidson", true},
-    {"Robert Windsor", true},
-    {"Orwell Marshal", true},
+    {"Richard Bayless, BIPN Head Honcho", true},
+    {"Gilbert Milner, BIPN alien specialist", true},
+    {"Ida Davidson, BIPN clerk", true},
+    {"Robert Windsor, Committee Headmaster", true},
+    {"Orwell Marshal, bad writer", true},
   ]
 
   # Public functions
