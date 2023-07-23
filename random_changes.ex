@@ -4,9 +4,9 @@ defmodule RandomChanges do
     {"Escrutador de Chak", true},
     {"Roger Boothe", false},
     {"Tommy Jackwell", false},
-    {"Hernández/PAF", false},
+    {"Hernández/PAF Erni", false},
     {"Eli Parker", true},
-    {"Pirokinético Zorra", true},
+    {"Joe Martínez", true},
     {"Roper Jones", true},
     {"Elton Bradbury", true},
     {"Brit Hammer", true},
@@ -28,10 +28,11 @@ defmodule RandomChanges do
     {"Maggie Shuman", true},
     {"Ibrahima Dawara", true},
     {"Johnny Sinclair", true},
-    {"Richard Bayless", true},
-    {"Gilbert Milner", true},
-    {"Ida Davidson", true},
-    {"Robert Windsor", true}
+    {"Richard Bayless, BIPN Head Honcho", true},
+    {"Gilbert Milner, BIPN alien specialist", true},
+    {"Ida Davidson, BIPN clerk", true},
+    {"Robert Windsor, Committee Headmaster", true},
+    {"Orwell Marshal, bad writer", true},
   ]
 
   # Public functions
