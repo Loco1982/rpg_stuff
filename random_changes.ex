@@ -3,8 +3,8 @@ defmodule RandomChanges do
   @set [
     {"Escrutador de Chak", true},
     {"Roger Boothe", false},
-    {"Tommy Jackwell", true},
-    {"Hernández/PAF Erni", false},
+    {"Tommy Jackwell", false},
+    {"Hernández/PAF Erni", true},
     {"Eli Parker", true},
     {"Joe Martínez", true},
     {"Roper Jones", true},
