@@ -13,7 +13,7 @@ defmodule RandomChanges do
     {"Mikio Chiyo", true},
     {"Yannick Doerr", false},
     {"Ross Geoff Evered", false},
-    {"Dudley Johnson", true},
+    {"Dudley Johnson", false},
     {"Bruria Segalowitz", false},
     {"Jack Hughman", false},
     {"Cain Smith", false},
